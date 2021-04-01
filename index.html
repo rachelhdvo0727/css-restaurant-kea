@@ -12,9 +12,9 @@
       <h1>Restaurant KEA</h1>
       <nav>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li id="nav-home"><a href="#home">Home</a></li>
+          <li id="nav-menu"><a href="menu.html">Menu</a></li>
+          <li id="nav-contact"><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -24,102 +24,37 @@
         src="./assets/kea_restaurant.jpg"
         alt="KEA restaurant"
       />
-      <p>
-        We provide a wide variety of fine dishes and beverages at moderate
-        prices. Located in one of the trendiest areas of Copenhagen, Restaurant
-        KEA has been at the forefront of Denmark's culinary life for the past
-        decade. Let us take you on a journey of taste that you will never
-        forget. You will not only not regret it, but you will feel an urge to
-        spread the good news around to your friends and family. So amazing is
-        the food experience at Restaurant KEA. We look forward to serving you.
-      </p>
-      <ul class="qualities">
-        <li>High quality food</li>
-        <li>Excellent location</li>
-        <li>Attentive personnel</li>
-        <li>Wonderful music</li>
-        <li>Amazing wines</li>
-        <li>Reasonable prices</li>
-      </ul>
-      <article id="quote">
-        <blockquote>
-          <p>
-            Dining at Restaurant KEA has truly been one of the greatest
-            experiences of my life. Words cannot express the pleasure that I
-            felt while tasting these amazing flavours. It makes all other
-            restaurants pale in comparison, in Denmark and elsewhere.
-          </p>
-          <cite>- Mette J. Christensen, <em>The Food Connoisseur</em></cite>
-        </blockquote>
-      </article>
-    </section>
-
-    <section id="menu">
-      <div class="container">
-        <img src="./assets/salad.jpg" alt="Turing salad" />
-        <h2>Turing Salad</h2>
+      <div id="text-container">
         <p>
-          Sun-dried tomatos and feta cheese on top of a thin layer of lettuce.
-          Choose between our balsamic, mustard or barbecue dressing.
+          We provide a wide variety of fine dishes and beverages at moderate
+          prices. Located in one of the trendiest areas of Copenhagen,
+          Restaurant KEA has been at the forefront of Denmark's culinary life
+          for the past decade. Let us take you on a journey of taste that you
+          will never forget. You will not only not regret it, but you will feel
+          an urge to spread the good news around to your friends and family. So
+          amazing is the food experience at Restaurant KEA. We look forward to
+          serving you.
         </p>
-        <div class="price">65DKK</div>
+        <ul class="qualities">
+          <li>High quality food</li>
+          <li>Excellent location</li>
+          <li>Attentive personnel</li>
+          <li>Wonderful music</li>
+          <li>Amazing wines</li>
+          <li>Reasonable prices</li>
+        </ul>
+        <article id="quote">
+          <blockquote>
+            <p>
+              Dining at Restaurant KEA has truly been one of the greatest
+              experiences of my life. Words cannot express the pleasure that I
+              felt while tasting these amazing flavours. It makes all other
+              restaurants pale in comparison, in Denmark and elsewhere.
+            </p>
+            <cite>- Mette J. Christensen, <em>The Food Connoisseur</em></cite>
+          </blockquote>
+        </article>
       </div>
-      <div class="container">
-        <img src="./assets/pizza.jpg" alt="Pizza Berners-Lee" />
-        <h2>Pizza Berners-Lee</h2>
-        <p>
-          Tomato, mozzarella, pepperoni and rucula. Choose between our thin or
-          thick bread base.
-        </p>
-        <div class="price">80DKK</div>
-      </div>
-      <div class="container">
-        <img src="./assets/burger.jpg" alt="Codd hamburger" />
-        <h2>Codd Hamburger</h2>
-        <p>
-          High quality meat, lettuce, tomato, onion, bacon, cheese, jalapeÒos
-          and a lot of love. Which sauce do you prefer: BBQ, Dijon or
-          mayonaisse? It comes with French fries and coleslaw salad.
-        </p>
-        <div class="price">115DKK</div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <figure><img src="./assets/map.jpg" alt="restaurant location" /></figure>
-      <p>Lygten 37 <br />2400 Copenhagen</p>
-      <p class="phone-no">
-        Phone no.: <a href="tel: 20 82 53 70">20 82 53 70</a>
-      </p>
-      <form>
-        <fieldset>
-          <legend>Contact form</legend>
-          <label for="full-name"
-            >Full name <input name="full-name" type="text" size="25"
-          /></label>
-          <label for="phone-num"
-            >Phone number <input name="phone-num" type="text" size="25"
-          /></label>
-          <label>Email <input name="email" type="emai" size="25" /></label>
-          <label for="persons">
-            Persons <br />
-            <input name="persons" type="number" maxlength="3" size="5"
-          /></label>
-          <label for="date-time">
-            Date and time
-            <input name="date-time" type="datetime-local" size="25"
-          /></label>
-          <label for="info">
-            Further information<textarea
-              name="info"
-              rows="5"
-              cols="33"
-            ></textarea>
-          </label>
-          <br />
-          <button type="submit">Send</button>
-        </fieldset>
-      </form>
     </section>
 
     <footer id="footer">
