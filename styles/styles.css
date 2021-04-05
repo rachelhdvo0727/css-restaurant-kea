@@ -29,9 +29,9 @@ nav ul li a {
 
 a:active,
 a:hover,
-#nav-home,
-#nav-menu,
-#nav-contact {
+body.home li.home a,
+body.menu li.menu a,
+body.contact li.contact a {
   color: var(--accent-color);
 }
 
